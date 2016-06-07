@@ -22,5 +22,12 @@
     <div id="test_mobile">
       THIS IS THE MOBILE VERSION
     </div>
+		
+		<div id="width"></div> 
+		
+		<script>
+			var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+			document.getElementById("width").innerHTML = width;
+		</script>
   </body>
 </html>
