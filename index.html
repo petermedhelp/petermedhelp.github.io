@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {color: red; font-size: 20px; font-weight:bold}
+      #test_mobile {display:none}
+      
+	  @media all and (max-device-width: 784px), all and (max-width: 784px) {
+      	#test_desktop {display:none}
+      	#test_mobile {display:block}
+	  }	
+    </style>
+  </head>
+  <body>
+    <div id="test_desktop">
+      THIS IS THE DESKTOP VERSION
+    </div>
+    <div id="test_mobile">
+      THIS IS THE MOBILE VERSION
+    </div>
+  </body>
+</html>
